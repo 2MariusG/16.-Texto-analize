@@ -1,6 +1,5 @@
 body,
 body * {
-
     margin: 0;
     padding: 0;
     vertical-align: top;
@@ -12,5 +11,25 @@ form {
     display: inline-block;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
-
+    form > textarea{
+        display: inline-block;
+        min-height: 100px;
+        height: 100px;
+        max-height: 300px;
+        width: 500px;
+        max-width: 90%;
+        text-align: left;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        resize: vertical;
+    }
+    form > input {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        font-size: 20px;
+    }
